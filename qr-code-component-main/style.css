@@ -1,0 +1,62 @@
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.QR-card{
+    background-color: white;
+    width: 35vw;
+    height: 60vh;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: darkblue;
+    box-shadow: darkgray 5px 5px ;
+}
+
+img{
+    
+    object-fit: contain;
+    width: 87%;
+    height: 51%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 18px;
+
+}
+
+
+footer{
+    margin-top: 10vh;
+}
+
+h3{
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.text{
+    width: 80%;
+    margin-top: 30px ;
+}
+
+p{
+    text-align:center;
+    font-weight: 100;
+    line-height: 1.5rem;
+}
